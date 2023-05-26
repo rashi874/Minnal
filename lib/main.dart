@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nothing_game/over.dart';
 
-
 void main() {
   runApp(const MyApp());
-
 }
 
 class MyApp extends StatelessWidget {
@@ -16,6 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
+      darkTheme: ThemeData.dark(),
       theme: ThemeData(
         useMaterial3: true,
         primarySwatch: Colors.blue,

@@ -1,5 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.example.nothing_game">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+ package="com.example.nothing_game">
     <uses-permission android:name="android.permission.INTERNET" /> 
    <application
         android:label="Minnal Game"
